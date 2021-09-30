@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Attribute</title>
+</head>
+
+<body>
+    <form>
+        <!-- Value merupakan nilai awal yang akan di tampilkan pada saat menjalankan file di browser -->
+        Nama Depan :<input type="text" value="nama"><br/> Nama Belakang : <input type="text">
+    </form>
+
+    <form>
+        <!-- Jika menggunakan attribute readonly maka value sudah tidak dapat di ubah -->
+        Nama Depan :<input type="text" value="nama" readonly><br/> Nama Belakang : <input type="text">
+    </form>
+    <form>
+        <!-- attribute disabled di gunakan untuk menonaktifkan inputan,beserta tidak dapat di input berdasarkan datanya -->
+        Nama Depan :<input type="text" value="nama" disabled><br/> Nama Belakang : <input type="text">
+    </form>
+    <form>
+        <!-- Attribute size mengatur lebar kotak inputan -->
+        Nama Depan :<input type="text" value="nama" size="50"><br/> Nama Belakang : <input type="text">
+    </form>
+    <form>
+        <!-- maxlength menentukan jumlah inputan dari text yang di batasi -->
+        Nama Depan :<input type="text" value="nama" maxlength="10"><br/> Nama Belakang : <input type="text">
+    </form>
+    <form>
+        <!-- attribute list untuk menampilkan list pada form inputan -->
+        <input list="browser" name="internet">
+        <datalist id="browser">
+	<option value="chrome">
+	<option value="mozilla">
+	<option value="opera">
+	</datalist>
+    </form>
+    <form>
+        <!-- min dan max menentuan minimum dan maximum untuk element input berupa number,datetime,datetime-local,dan lain -->
+        <input type="date" name="day" max="1979-12-31">
+        <input type="date" name="day" min="2000-01-02">
+    </form>
+</body>
+
+</html>
