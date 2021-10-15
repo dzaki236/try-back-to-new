@@ -1,0 +1,42 @@
+body {
+    height: 2000px;
+}
+
+.kotak1 {
+    background-color: red;
+    /* Css Shorthand */
+    padding: 10px 5px 10px 100px;
+    /* padding-left: 10px; */
+}
+
+.kotak2 {
+    width: 10em;
+    height: 10em;
+    padding: 1em;
+    margin-top: 10em;
+    /* padding-top: 10px; */
+    background-color: greenyellow;
+}
+
+.relative {
+    position: relative;
+    left: 100px;
+    background-color: red;
+    /* top: 0; */
+    width: 100%;
+}
+
+.absolute {
+    position: absolute;
+    /* left: 100px; */
+    background-color: grey;
+    top: 100px;
+    width: 100%;
+}
+
+.fixed {
+    position: fixed;
+    background-color: hotpink;
+    top: 0;
+    width: 100%;
+}
